@@ -1,6 +1,6 @@
 "use strict";
 
-const os = require("os");
+const os = window.os;
 
 function throwNotSupportedError() {
   throw new Error("Platform not supported");
